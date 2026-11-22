@@ -1,0 +1,356 @@
+{
+  "updated": "2026-11-22T11:25:22.229707+00:00",
+  "eligible": 78,
+  "audits": [
+    {
+      "repo": "CodebuffAI/freebuff",
+      "url": "https://github.com/CodebuffAI/freebuff",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T06:58:13Z",
+        "archived": false,
+        "stars": 14271,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 5,
+        "unresolved_entries": 18,
+        "pins_checked": 5,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "happier-dev/happier",
+      "url": "https://github.com/happier-dev/happier",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:12:47Z",
+        "archived": false,
+        "stars": 2259,
+        "root_files": 37,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "yarn.lock"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 2,
+        "unresolved_entries": 3,
+        "pins_checked": 2,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "susomejias/rembric",
+      "url": "https://github.com/susomejias/rembric",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:20:53Z",
+        "archived": false,
+        "stars": 15,
+        "root_files": 49,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [
+          "install.sh",
+          "install.test.ts"
+        ],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 11,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T11:21:51Z",
+        "archived": false,
+        "stars": 14271,
+        "root_files": 33,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 6,
+        "unresolved_entries": 10,
+        "pins_checked": 6,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "wanderingstan/vibeconf-app",
+      "url": "https://github.com/wanderingstan/vibeconf-app",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-16T20:04:03Z",
+        "archived": false,
+        "stars": 32,
+        "root_files": 18,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T11:19:39Z",
+        "archived": false,
+        "stars": 9450,
+        "root_files": 43,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 13,
+        "unresolved_entries": 0,
+        "pins_checked": 13,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:07:28Z",
+        "archived": false,
+        "stars": 39915,
+        "root_files": 25,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-21T18:51:50Z",
+        "archived": false,
+        "stars": 37983,
+        "root_files": 49,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-21T21:27:31Z",
+        "archived": false,
+        "stars": 151776,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T09:27:26Z",
+        "archived": false,
+        "stars": 55243,
+        "root_files": 38,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum",
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.ps1",
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 6,
+        "unresolved_entries": 0,
+        "pins_checked": 6,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-21T21:29:51Z",
+        "archived": false,
+        "stars": 4989,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "mvalentsev/awesome-free-ai-coding",
+      "url": "https://github.com/mvalentsev/awesome-free-ai-coding",
+      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-21T19:38:10Z",
+        "archived": false,
+        "stars": 259,
+        "root_files": 32,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    }
+  ]
+}
