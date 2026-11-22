@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T11:25:22.229707+00:00",
-  "eligible": 78,
+  "updated": "2026-11-22T11:31:10.709652+00:00",
+  "eligible": 89,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -347,6 +347,345 @@
         "install_script_names": [],
         "exact_pins_found": 0,
         "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "cporter202/API-mega-list",
+      "url": "https://github.com/cporter202/API-mega-list",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-19T13:52:22Z",
+        "archived": false,
+        "stars": 8414,
+        "root_files": 30,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "cporter202/agentic-ai-apis",
+      "url": "https://github.com/cporter202/agentic-ai-apis",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-21T20:55:40Z",
+        "archived": false,
+        "stars": 833,
+        "root_files": 9,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "V-Groups-Foundations/freetoken",
+      "url": "https://github.com/V-Groups-Foundations/freetoken",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-13T01:02:02Z",
+        "archived": false,
+        "stars": 11,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.ps1",
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 5,
+        "unresolved_entries": 21,
+        "pins_checked": 5,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "al3x4kov/teleharness",
+      "url": "https://github.com/al3x4kov/teleharness",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:24:59Z",
+        "archived": false,
+        "stars": 6,
+        "root_files": 36,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 7,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Kilo-Org/kilocode",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:29:30Z",
+        "archived": false,
+        "stars": 28081,
+        "root_files": 51,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [
+          "install"
+        ],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 16,
+        "unresolved_entries": 11,
+        "pins_checked": 16,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "open-free-llm-api/awesome-freellm-apis",
+      "url": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-21T11:35:55Z",
+        "archived": false,
+        "stars": 5921,
+        "root_files": 12,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "nejib1/Free-LLM",
+      "url": "https://github.com/nejib1/Free-LLM",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T03:00:05Z",
+        "archived": false,
+        "stars": 1084,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "FishBottle7/opencode2dsh",
+      "url": "https://github.com/FishBottle7/opencode2dsh",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-03T09:04:03Z",
+        "archived": false,
+        "stars": 411,
+        "root_files": 22,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "hakilee/oh-my-free-models",
+      "url": "https://github.com/hakilee/oh-my-free-models",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-21T11:14:26Z",
+        "archived": false,
+        "stars": 67,
+        "root_files": 15,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 5,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Agentic-System-Lab/harness-relay",
+      "url": "https://github.com/Agentic-System-Lab/harness-relay",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-22T11:30:02Z",
+        "archived": false,
+        "stars": 36,
+        "root_files": 32,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 2,
+        "unresolved_entries": 32,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "dmlguq456/hearting",
+      "url": "https://github.com/dmlguq456/hearting",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:21:07Z",
+        "archived": false,
+        "stars": 10,
+        "root_files": 27,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "checked": "2026-11-22T11:31:10.709652+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T01:02:03Z",
+        "archived": false,
+        "stars": 56435,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 2,
         "pins_checked": 0,
         "known_advisory_matches": null
       },
