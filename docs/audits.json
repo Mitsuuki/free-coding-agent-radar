@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T11:51:20.394524+00:00",
-  "eligible": 102,
+  "updated": "2026-11-22T19:49:02.856006+00:00",
+  "eligible": 108,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -1346,6 +1346,347 @@
         "exact_pins_found": 1,
         "unresolved_entries": 3,
         "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "devswha/ovis",
+      "url": "https://github.com/devswha/ovis",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:45:15Z",
+        "archived": false,
+        "stars": 2180,
+        "root_files": 48,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [
+          "INSTALL.md",
+          "install.ps1",
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 17,
+        "unresolved_entries": 19,
+        "pins_checked": 17,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T19:44:27Z",
+        "archived": false,
+        "stars": 30869,
+        "root_files": 42,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 14,
+        "unresolved_entries": 55,
+        "pins_checked": 14,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "OrchestratorInc/agent-orchestrator",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T19:48:19Z",
+        "archived": false,
+        "stars": 15019,
+        "root_files": 33,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 0,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:42:54Z",
+        "archived": false,
+        "stars": 6502,
+        "root_files": 50,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "agent-of-empires/agent-of-empires",
+      "url": "https://github.com/agent-of-empires/agent-of-empires",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:43:55Z",
+        "archived": false,
+        "stars": 4697,
+        "root_files": 47,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "reylosql/reylo",
+      "url": "https://github.com/reylosql/reylo",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:48:33Z",
+        "archived": false,
+        "stars": 1621,
+        "root_files": 29,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 9,
+        "unresolved_entries": 3,
+        "pins_checked": 9,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "CYBIRD-D/FREE-LLM-API-Provider",
+      "url": "https://github.com/CYBIRD-D/FREE-LLM-API-Provider",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-17T22:52:39Z",
+        "archived": false,
+        "stars": 126,
+        "root_files": 6,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "XuexGao/free-llm-router",
+      "url": "https://github.com/XuexGao/free-llm-router",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-21T03:50:11Z",
+        "archived": false,
+        "stars": 75,
+        "root_files": 13,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 3,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "yocontra/pulsar",
+      "url": "https://github.com/yocontra/pulsar",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:45:18Z",
+        "archived": false,
+        "stars": 57,
+        "root_files": 23,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 36,
+        "unresolved_entries": 10,
+        "pins_checked": 36,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "precis1onz/tokenation",
+      "url": "https://github.com/precis1onz/tokenation",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:47:56Z",
+        "archived": false,
+        "stars": 54,
+        "root_files": 4,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "letitbk/claude-academic-setup",
+      "url": "https://github.com/letitbk/claude-academic-setup",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T19:48:12Z",
+        "archived": false,
+        "stars": 47,
+        "root_files": 12,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "threadnote/threadnote",
+      "url": "https://github.com/threadnote/threadnote",
+      "checked": "2026-11-22T19:49:02.856006+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-22T19:48:40Z",
+        "archived": false,
+        "stars": 29,
+        "root_files": 47,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 43,
+        "unresolved_entries": 29,
+        "pins_checked": 40,
         "known_advisory_matches": 0
       },
       "errors": []
