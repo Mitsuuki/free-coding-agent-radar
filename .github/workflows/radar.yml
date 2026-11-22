@@ -11,16 +11,19 @@ concurrency: radar
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - run: python3 scan.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - run: python3 audit.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - run: |
           git config user.name 'radar-bot'
           git config user.email 'radar-bot@users.noreply.github.com'
-          git add docs/results.json
+          git add docs/results.json docs/audits.json
           git diff --cached --quiet || (git commit -m 'Update discovery feed' && git push)
       - uses: actions/upload-pages-artifact@v3
         with:
