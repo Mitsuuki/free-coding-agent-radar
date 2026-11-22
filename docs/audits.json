@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T11:33:07.482905+00:00",
-  "eligible": 93,
+  "updated": "2026-11-22T11:51:20.394524+00:00",
+  "eligible": 102,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -1014,6 +1014,339 @@
         "unresolved_entries": 0,
         "pins_checked": 0,
         "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "callstack/agent-device",
+      "url": "https://github.com/callstack/agent-device",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:46:04Z",
+        "archived": false,
+        "stars": 5478,
+        "root_files": 49,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 10,
+        "unresolved_entries": 66,
+        "pins_checked": 10,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "yonatangross/orchestkit",
+      "url": "https://github.com/yonatangross/orchestkit",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:44:28Z",
+        "archived": false,
+        "stars": 305,
+        "root_files": 64,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json",
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 1,
+        "unresolved_entries": 1,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "redhat-et/ripwire",
+      "url": "https://github.com/redhat-et/ripwire",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T11:42:54Z",
+        "archived": false,
+        "stars": 2560,
+        "root_files": 40,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "INSTALL.md",
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "EstaxNet/Inferpal",
+      "url": "https://github.com/EstaxNet/Inferpal",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "GPL-3.0",
+        "last_push": "2026-11-22T11:38:38Z",
+        "archived": false,
+        "stars": 9,
+        "root_files": 24,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-22T11:51:04Z",
+        "archived": false,
+        "stars": 28861,
+        "root_files": 109,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 5,
+        "unresolved_entries": 8,
+        "pins_checked": 5,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "flisk-sh/flisk",
+      "url": "https://github.com/flisk-sh/flisk",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:48:03Z",
+        "archived": false,
+        "stars": 55,
+        "root_files": 33,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 7,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "altafino/crazy",
+      "url": "https://github.com/altafino/crazy",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-22T11:41:03Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 21,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 17,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "for-the-zero/Free-LLM-Collection",
+      "url": "https://github.com/for-the-zero/Free-LLM-Collection",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-14T18:37:39Z",
+        "archived": false,
+        "stars": 702,
+        "root_files": 6,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T11:51:01Z",
+        "archived": false,
+        "stars": 678,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "AIPMAndy/FreeToken",
+      "url": "https://github.com/AIPMAndy/FreeToken",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-19T23:11:27Z",
+        "archived": false,
+        "stars": 184,
+        "root_files": 19,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "0xzr/freellmpool",
+      "url": "https://github.com/0xzr/freellmpool",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-20T19:04:38Z",
+        "archived": false,
+        "stars": 154,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "pacocartones/free-llm-api-hub",
+      "url": "https://github.com/pacocartones/free-llm-api-hub",
+      "checked": "2026-11-22T11:51:20.394524+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-20T17:16:21Z",
+        "archived": false,
+        "stars": 128,
+        "root_files": 31,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 3,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
       },
       "errors": []
     }
