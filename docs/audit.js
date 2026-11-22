@@ -1,6 +1,6 @@
 (() => {
   const make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n};
-  const panel=make('section');panel.style.cssText='border:1px solid #343c53;background:#161b29;border-radius:14px;padding:18px;margin:24px 0';
+  const panel=make('section');panel.id='audit-panel';panel.style.cssText='border:1px solid #343c53;background:#161b29;border-radius:14px;padding:18px;margin:24px 0';
   const heading=make('h2','Repo Auditor');heading.style.margin='0';panel.append(heading,make('p','Limited, read-only public repository review. No repository code is run. Missing findings do not mean a repository is safe.'));
   const stats=make('p','Loading reviews…');stats.setAttribute('role','status');panel.append(stats);
   const filters=make('div');filters.className='tools';const search=make('input');search.placeholder='Search audited repositories…';search.setAttribute('aria-label','Search audited repositories');const status=make('select');status.setAttribute('aria-label','Audit status');for(const s of ['All audit statuses','Review required','Limited checks completed','Unassessed']){const o=make('option',s);o.value=s==='All audit statuses'?'':s;status.append(o)}filters.append(search,status);panel.append(filters);
