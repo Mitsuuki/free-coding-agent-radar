@@ -1,6 +1,7 @@
 (() => {
   const e=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n};
-  const main=document.querySelector('main'),header=main.querySelector('header'),audit=document.querySelector('#audit-panel');
+  const main=document.querySelector('main'),header=main.querySelector('header');
+  const audit=document.querySelector('#audit-panel')||[...main.querySelectorAll('section')].find(p=>p.querySelector('h2')?.textContent==='Repo Auditor')||e('section','Audit data unavailable. Reload the page.');audit.id='audit-panel';
   const nav=e('nav',undefined,'hub-nav');nav.setAttribute('aria-label','Dashboard sections');
   const radar=e('section');radar.id='radar-panel';
   const jobs=e('section');jobs.id='jobs-panel';
