@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T01:49:19.898505+00:00",
-  "eligible": 123,
+  "updated": "2026-11-23T13:08:28.527042+00:00",
+  "eligible": 130,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -2032,6 +2032,345 @@
         "install_script_names": [],
         "exact_pins_found": 0,
         "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T13:07:49Z",
+        "archived": false,
+        "stars": 123461,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 8,
+        "unresolved_entries": 0,
+        "pins_checked": 8,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "bunhine0452/Ocul-PM",
+      "url": "https://github.com/bunhine0452/Ocul-PM",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T13:00:14Z",
+        "archived": false,
+        "stars": 7,
+        "root_files": 41,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 46,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "alpacakit/alpacawork",
+      "url": "https://github.com/alpacakit/alpacawork",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T13:05:01Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 26,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 20,
+        "unresolved_entries": 9,
+        "pins_checked": 20,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23T13:07:58Z",
+        "archived": false,
+        "stars": 11502,
+        "root_files": 45,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml",
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [
+          "setup.py"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "tuist/tuist",
+      "url": "https://github.com/tuist/tuist",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T13:04:50Z",
+        "archived": false,
+        "stars": 5869,
+        "root_files": 85,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 5,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T13:07:24Z",
+        "archived": false,
+        "stars": 5826,
+        "root_files": 38,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "leapmux/leapmux",
+      "url": "https://github.com/leapmux/leapmux",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T13:03:30Z",
+        "archived": false,
+        "stars": 121,
+        "root_files": 33,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "xinrui-z/free-llm",
+      "url": "https://github.com/xinrui-z/free-llm",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-20T09:37:46Z",
+        "archived": false,
+        "stars": 27,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "kaiser-data/free-llm-proxy-router",
+      "url": "https://github.com/kaiser-data/free-llm-proxy-router",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T06:05:51Z",
+        "archived": false,
+        "stars": 22,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "zz1358m/Awesome-Gradient-Free-LLMOpt",
+      "url": "https://github.com/zz1358m/Awesome-Gradient-Free-LLMOpt",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23T12:31:46Z",
+        "archived": false,
+        "stars": 19,
+        "root_files": 11,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "alirezasafaei-dev/awesome-free-llm-apis-ir",
+      "url": "https://github.com/alirezasafaei-dev/awesome-free-llm-apis-ir",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-09T21:25:21Z",
+        "archived": false,
+        "stars": 15,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 2,
+        "unresolved_entries": 1,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "sonuworks/Discord-AI-bot",
+      "url": "https://github.com/sonuworks/Discord-AI-bot",
+      "checked": "2026-11-23T13:08:28.527042+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-11T03:31:10Z",
+        "archived": false,
+        "stars": 14,
+        "root_files": 16,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "requirements.txt"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 18,
         "pins_checked": 0,
         "known_advisory_matches": null
       },
