@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T19:49:02.856006+00:00",
-  "eligible": 108,
+  "updated": "2026-11-23T01:49:19.898505+00:00",
+  "eligible": 123,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -1688,6 +1688,352 @@
         "unresolved_entries": 29,
         "pins_checked": 40,
         "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "getopencrawl/opencrawl-core",
+      "url": "https://github.com/getopencrawl/opencrawl-core",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23T01:42:13Z",
+        "archived": false,
+        "stars": 72,
+        "root_files": 30,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 23,
+        "unresolved_entries": 0,
+        "pins_checked": 23,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "ParadevAI/Paradev",
+      "url": "https://github.com/ParadevAI/Paradev",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T01:37:02Z",
+        "archived": false,
+        "stars": 16489,
+        "root_files": 45,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 10,
+        "unresolved_entries": 0,
+        "pins_checked": 10,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "Dicklesworthstone/eidetic_engine_cli",
+      "url": "https://github.com/Dicklesworthstone/eidetic_engine_cli",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T01:38:01Z",
+        "archived": false,
+        "stars": 78,
+        "root_files": 42,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [
+          "install.ps1",
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23T01:48:52Z",
+        "archived": false,
+        "stars": 88301,
+        "root_files": 50,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 16,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T01:45:14Z",
+        "archived": false,
+        "stars": 85621,
+        "root_files": 38,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "Install.md"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "getpaseo/paseo",
+      "url": "https://github.com/getpaseo/paseo",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T01:46:01Z",
+        "archived": false,
+        "stars": 24712,
+        "root_files": 43,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 6,
+        "unresolved_entries": 14,
+        "pins_checked": 6,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "codepawl/crucible",
+      "url": "https://github.com/codepawl/crucible",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T01:42:01Z",
+        "archived": false,
+        "stars": 887,
+        "root_files": 35,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 16,
+        "unresolved_entries": 6,
+        "pins_checked": 16,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "wh000wh000/awesome-jev-live",
+      "url": "https://github.com/wh000wh000/awesome-jev-live",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T01:47:53Z",
+        "archived": false,
+        "stars": 380,
+        "root_files": 12,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "jaredfreellm/FREELLM_INSTALL",
+      "url": "https://github.com/jaredfreellm/FREELLM_INSTALL",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-22T20:13:06Z",
+        "archived": false,
+        "stars": 250,
+        "root_files": 2,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "akhayam99/goodboy",
+      "url": "https://github.com/akhayam99/goodboy",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-23T01:49:03Z",
+        "archived": false,
+        "stars": 119,
+        "root_files": 39,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 1,
+        "unresolved_entries": 11,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "ReviewStage/vespin",
+      "url": "https://github.com/ReviewStage/vespin",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-23T01:43:12Z",
+        "archived": false,
+        "stars": 84,
+        "root_files": 40,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 7,
+        "unresolved_entries": 3,
+        "pins_checked": 7,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "realgenekim/clj-surgeon",
+      "url": "https://github.com/realgenekim/clj-surgeon",
+      "checked": "2026-11-23T01:49:19.898505+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T01:40:53Z",
+        "archived": false,
+        "stars": 39,
+        "root_files": 25,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
       },
       "errors": []
     }

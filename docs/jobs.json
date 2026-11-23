@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-22T19:49:05.790692+00:00",
+  "updated": "2026-11-23T01:49:23.488835+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-22T19:49:05.790692+00:00",
+      "last_attempt": "2026-11-23T01:49:23.488835+00:00",
       "jobs": [
         {
           "title": "Private Practice Enablement Specialist (PST)",
@@ -31,69 +31,13 @@
           "posted": "2026-11-20T16:00:18+00:00",
           "salary": "Not stated",
           "kind": ""
-        },
-        {
-          "title": "Customer Success Engineer",
-          "company": "GitLab",
-          "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
-          "source": "Remote OK",
-          "location": "US Only",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:30:12+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Customer Success LATAM",
-          "company": "GitLab",
-          "url": "https://remoteOK.com/remote-jobs/remote-customer-success-latam-gitlab-1137866",
-          "source": "Remote OK",
-          "location": "US Only",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:15:13+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Business Development Specialist Arabic speaker",
-          "company": "FP Markets",
-          "url": "https://remoteOK.com/remote-jobs/remote-business-development-specialist-arabic-speaker-fp-markets-1137863",
-          "source": "Remote OK",
-          "location": "Not stated",
-          "eligibility": "Location unclear",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:00:35+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Mental Health Clinical Supervisor",
-          "company": "Handspring",
-          "url": "https://remoteOK.com/remote-jobs/remote-mental-health-clinical-supervisor-handspring-1137862",
-          "source": "Remote OK",
-          "location": "New York",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:00:28+00:00",
-          "salary": "Not stated",
-          "kind": ""
         }
       ],
-      "last_success": "2026-11-22T19:49:05.790692+00:00",
+      "last_success": "2026-11-23T01:49:23.488835+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-22T19:49:05.790692+00:00",
+      "last_attempt": "2026-11-23T01:49:23.488835+00:00",
       "jobs": [
         {
           "title": "Remote Office Assistant",
@@ -152,7 +96,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-22T19:49:05.790692+00:00",
+      "last_success": "2026-11-23T01:49:23.488835+00:00",
       "error": null
     }
   },
@@ -200,20 +144,6 @@
       "kind": "freelance"
     },
     {
-      "title": "Business Development Specialist Arabic speaker",
-      "company": "FP Markets",
-      "url": "https://remoteOK.com/remote-jobs/remote-business-development-specialist-arabic-speaker-fp-markets-1137863",
-      "source": "Remote OK",
-      "location": "Not stated",
-      "eligibility": "Location unclear",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:00:35+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
       "title": "Quality Engineer",
       "company": "Quartermaster",
       "url": "https://remoteOK.com/remote-jobs/remote-quality-engineer-quartermaster-1137914",
@@ -224,48 +154,6 @@
         "Virtual assistant"
       ],
       "posted": "2026-11-20T16:00:18+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Customer Success Engineer",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
-      "source": "Remote OK",
-      "location": "US Only",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:30:12+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Customer Success LATAM",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-latam-gitlab-1137866",
-      "source": "Remote OK",
-      "location": "US Only",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:15:13+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Mental Health Clinical Supervisor",
-      "company": "Handspring",
-      "url": "https://remoteOK.com/remote-jobs/remote-mental-health-clinical-supervisor-handspring-1137862",
-      "source": "Remote OK",
-      "location": "New York",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:00:28+00:00",
       "salary": "Not stated",
       "kind": ""
     },
