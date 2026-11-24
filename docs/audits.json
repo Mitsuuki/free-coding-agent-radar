@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T13:08:28.527042+00:00",
-  "eligible": 130,
+  "updated": "2026-11-24T02:19:04.739650+00:00",
+  "eligible": 139,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -2373,6 +2373,340 @@
         "unresolved_entries": 18,
         "pins_checked": 0,
         "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "superbasedapp/observer",
+      "url": "https://github.com/superbasedapp/observer",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-24T02:18:21Z",
+        "archived": false,
+        "stars": 63,
+        "root_files": 47,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum",
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 24,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "girishr/SpecPilot",
+      "url": "https://github.com/girishr/SpecPilot",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:15:41Z",
+        "archived": false,
+        "stars": 42,
+        "root_files": 24,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 1,
+        "unresolved_entries": 18,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "langchain-ai/langsmith-cli",
+      "url": "https://github.com/langchain-ai/langsmith-cli",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:11:41Z",
+        "archived": false,
+        "stars": 81,
+        "root_files": 16,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "wevm/incur",
+      "url": "https://github.com/wevm/incur",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:18:58Z",
+        "archived": false,
+        "stars": 651,
+        "root_files": 23,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 18,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "JimLiu/open-artifact",
+      "url": "https://github.com/JimLiu/open-artifact",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "Published advisories match one or more checked dependency versions; review upgrades before use."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T02:18:14Z",
+        "archived": false,
+        "stars": 438,
+        "root_files": 28,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 14,
+        "unresolved_entries": 0,
+        "pins_checked": 14,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "NoelJudeNoel/open-free-router",
+      "url": "https://github.com/NoelJudeNoel/open-free-router",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T17:02:22Z",
+        "archived": false,
+        "stars": 25,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "mostlydev/shrooms",
+      "url": "https://github.com/mostlydev/shrooms",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:17:31Z",
+        "archived": false,
+        "stars": 20,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 13,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "developerz-ai/wurk",
+      "url": "https://github.com/developerz-ai/wurk",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:14:49Z",
+        "archived": false,
+        "stars": 18,
+        "root_files": 40,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "kbkkb/APISwitch",
+      "url": "https://github.com/kbkkb/APISwitch",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T02:16:42Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 18,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "ruodou233/free-token-eggs",
+      "url": "https://github.com/ruodou233/free-token-eggs",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-19T20:55:24Z",
+        "archived": false,
+        "stars": 11,
+        "root_files": 6,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "metavert-io/metacomputer",
+      "url": "https://github.com/metavert-io/metacomputer",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-23T23:36:59Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "ohmybahgosh/TiviBro",
+      "url": "https://github.com/ohmybahgosh/TiviBro",
+      "checked": "2026-11-24T02:19:04.739650+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T01:21:03Z",
+        "archived": false,
+        "stars": 22,
+        "root_files": 24,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 1,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
       },
       "errors": []
     }
