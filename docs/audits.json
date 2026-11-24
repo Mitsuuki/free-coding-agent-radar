@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T13:55:03.378325+00:00",
-  "eligible": 153,
+  "updated": "2026-11-24T23:56:48.272398+00:00",
+  "eligible": 166,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -3039,6 +3039,346 @@
         "dependency_manifests": [
           "pyproject.toml",
           "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "codealong/codealong",
+      "url": "https://github.com/codealong/codealong",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T23:56:10Z",
+        "archived": false,
+        "stars": 74,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 13,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "mdpsec/huntmail",
+      "url": "https://github.com/mdpsec/huntmail",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-24T23:47:06Z",
+        "archived": false,
+        "stars": 9,
+        "root_files": 21,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 7,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T23:56:43Z",
+        "archived": false,
+        "stars": 136333,
+        "root_files": 45,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "AntigmaLabs/ante",
+      "url": "https://github.com/AntigmaLabs/ante",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T23:56:30Z",
+        "archived": false,
+        "stars": 2050,
+        "root_files": 15,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "vshulcz/deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T23:52:40Z",
+        "archived": false,
+        "stars": 1666,
+        "root_files": 58,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "grunmin/dsh-acp-enhanced",
+      "url": "https://github.com/grunmin/dsh-acp-enhanced",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T23:56:16Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 16,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 2,
+        "unresolved_entries": 16,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "chengyu2/agentaus_connector_for_claude_code",
+      "url": "https://github.com/chengyu2/agentaus_connector_for_claude_code",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-24T23:56:42Z",
+        "archived": false,
+        "stars": 6,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "requirements.txt"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 4,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T23:56:17Z",
+        "archived": false,
+        "stars": 116741,
+        "root_files": 51,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 2,
+        "unresolved_entries": 7,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "uclanlp/OpenVLHarness",
+      "url": "https://github.com/uclanlp/OpenVLHarness",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T23:49:49Z",
+        "archived": false,
+        "stars": 597,
+        "root_files": 19,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "vercel/board",
+      "url": "https://github.com/vercel/board",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T23:54:11Z",
+        "archived": false,
+        "stars": 262,
+        "root_files": 19,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "everruns/everruns",
+      "url": "https://github.com/everruns/everruns",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T23:53:45Z",
+        "archived": false,
+        "stars": 71,
+        "root_files": 51,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "squid-protocol/gitgalaxy",
+      "url": "https://github.com/squid-protocol/gitgalaxy",
+      "checked": "2026-11-24T23:56:48.272398+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-24T23:49:49Z",
+        "archived": false,
+        "stars": 67,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
         ],
         "install_script_names": [],
         "exact_pins_found": 0,

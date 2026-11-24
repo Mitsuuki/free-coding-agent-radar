@@ -1,9 +1,23 @@
 {
-  "updated": "2026-11-24T13:55:08.009886+00:00",
+  "updated": "2026-11-24T23:56:50.685714+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-24T13:55:08.009886+00:00",
+      "last_attempt": "2026-11-24T23:56:50.685714+00:00",
       "jobs": [
+        {
+          "title": "Strategic Technical Advisor",
+          "company": "Thrive",
+          "url": "https://remoteOK.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074",
+          "source": "Remote OK",
+          "location": "Not stated",
+          "eligibility": "Location unclear",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-23T16:00:27+00:00",
+          "salary": "128091\u2013128091 (units per listing)",
+          "kind": ""
+        },
         {
           "title": "Private Practice Enablement Specialist (PST)",
           "company": "Healthie",
@@ -61,11 +75,11 @@
           "kind": ""
         }
       ],
-      "last_success": "2026-11-24T13:55:08.009886+00:00",
+      "last_success": "2026-11-24T23:56:50.685714+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-24T13:55:08.009886+00:00",
+      "last_attempt": "2026-11-24T23:56:50.685714+00:00",
       "jobs": [
         {
           "title": "Remote Office Assistant",
@@ -124,7 +138,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-24T13:55:08.009886+00:00",
+      "last_success": "2026-11-24T23:56:50.685714+00:00",
       "error": null
     }
   },
@@ -170,6 +184,20 @@
       "posted": "2026-11-02T20:01:00",
       "salary": "$20k -$35k",
       "kind": "freelance"
+    },
+    {
+      "title": "Strategic Technical Advisor",
+      "company": "Thrive",
+      "url": "https://remoteOK.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074",
+      "source": "Remote OK",
+      "location": "Not stated",
+      "eligibility": "Location unclear",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-23T16:00:27+00:00",
+      "salary": "128091\u2013128091 (units per listing)",
+      "kind": ""
     },
     {
       "title": "Quality Engineer",
