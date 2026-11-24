@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24T02:19:07.963169+00:00",
+  "updated": "2026-11-24T13:55:08.009886+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-24T02:19:07.963169+00:00",
+      "last_attempt": "2026-11-24T13:55:08.009886+00:00",
       "jobs": [
         {
           "title": "Private Practice Enablement Specialist (PST)",
@@ -61,11 +61,11 @@
           "kind": ""
         }
       ],
-      "last_success": "2026-11-24T02:19:07.963169+00:00",
+      "last_success": "2026-11-24T13:55:08.009886+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-24T02:19:07.963169+00:00",
+      "last_attempt": "2026-11-24T13:55:08.009886+00:00",
       "jobs": [
         {
           "title": "Remote Office Assistant",
@@ -124,7 +124,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-24T02:19:07.963169+00:00",
+      "last_success": "2026-11-24T13:55:08.009886+00:00",
       "error": null
     }
   },

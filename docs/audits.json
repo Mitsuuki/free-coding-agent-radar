@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T02:19:04.739650+00:00",
-  "eligible": 139,
+  "updated": "2026-11-24T13:55:03.378325+00:00",
+  "eligible": 153,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -2707,6 +2707,344 @@
         "unresolved_entries": 1,
         "pins_checked": 1,
         "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "C4rohan/Lampline",
+      "url": "https://github.com/C4rohan/Lampline",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:48:03Z",
+        "archived": false,
+        "stars": 456,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "shirenchuang/agentbro",
+      "url": "https://github.com/shirenchuang/agentbro",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:51:30Z",
+        "archived": false,
+        "stars": 167,
+        "root_files": 36,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 29,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "open-mercato/cezar",
+      "url": "https://github.com/open-mercato/cezar",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T13:49:15Z",
+        "archived": false,
+        "stars": 1141,
+        "root_files": 36,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 9,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:54:51Z",
+        "archived": false,
+        "stars": 99398,
+        "root_files": 42,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 4,
+        "unresolved_entries": 1,
+        "pins_checked": 4,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-24T13:53:50Z",
+        "archived": false,
+        "stars": 37792,
+        "root_files": 51,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "preinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 1,
+        "unresolved_entries": 12,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "tomasz-tomczyk/crit",
+      "url": "https://github.com/tomasz-tomczyk/crit",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T13:53:19Z",
+        "archived": false,
+        "stars": 1355,
+        "root_files": 37,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum",
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 13,
+        "unresolved_entries": 0,
+        "pins_checked": 13,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "agent-sh/computer-use-linux",
+      "url": "https://github.com/agent-sh/computer-use-linux",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T13:53:24Z",
+        "archived": false,
+        "stars": 932,
+        "root_files": 25,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Nimbleway/webrouter",
+      "url": "https://github.com/Nimbleway/webrouter",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:51:41Z",
+        "archived": false,
+        "stars": 857,
+        "root_files": 36,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "requirements.txt",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 83,
+        "unresolved_entries": 12,
+        "pins_checked": 40,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "kitfunso/hippo-memory",
+      "url": "https://github.com/kitfunso/hippo-memory",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T13:49:15Z",
+        "archived": false,
+        "stars": 793,
+        "root_files": 64,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 8,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "qdrant/skills",
+      "url": "https://github.com/qdrant/skills",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:53:18Z",
+        "archived": false,
+        "stars": 271,
+        "root_files": 18,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "catatafishen/agentbridge",
+      "url": "https://github.com/catatafishen/agentbridge",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:51:28Z",
+        "archived": false,
+        "stars": 88,
+        "root_files": 50,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "SuperagenticAI/superqode",
+      "url": "https://github.com/SuperagenticAI/superqode",
+      "checked": "2026-11-24T13:55:03.378325+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-24T13:51:11Z",
+        "archived": false,
+        "stars": 68,
+        "root_files": 33,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
       },
       "errors": []
     }
