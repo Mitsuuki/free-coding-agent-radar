@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T23:56:48.272398+00:00",
+  "updated": "2026-11-25T08:48:41.714813+00:00",
   "eligible": 166,
   "audits": [
     {
@@ -3385,6 +3385,337 @@
         "unresolved_entries": 0,
         "pins_checked": 0,
         "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Drix10/agent-flow",
+      "url": "https://github.com/Drix10/agent-flow",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:45:52Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 43,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [
+          "INSTALL.md",
+          "SETUP.md"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 4,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "OpenAdaptAI/OpenAdapt",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:45:48Z",
+        "archived": false,
+        "stars": 1901,
+        "root_files": 39,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "intent-hq/intent",
+      "url": "https://github.com/intent-hq/intent",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-25T08:44:33Z",
+        "archived": false,
+        "stars": 470,
+        "root_files": 18,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:46:09Z",
+        "archived": false,
+        "stars": 39841,
+        "root_files": 52,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 6,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "lidge-jun/opencodex",
+      "url": "https://github.com/lidge-jun/opencodex",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:47:43Z",
+        "archived": false,
+        "stars": 18750,
+        "root_files": 38,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 6,
+        "unresolved_entries": 2,
+        "pins_checked": 6,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:39:49Z",
+        "archived": false,
+        "stars": 16072,
+        "root_files": 22,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 15,
+        "unresolved_entries": 14,
+        "pins_checked": 15,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-25T08:45:44Z",
+        "archived": false,
+        "stars": 6105,
+        "root_files": 19,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "receptron/mulmoterminal",
+      "url": "https://github.com/receptron/mulmoterminal",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:44:32Z",
+        "archived": false,
+        "stars": 277,
+        "root_files": 42,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "yarn.lock"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 3,
+        "unresolved_entries": 102,
+        "pins_checked": 3,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "yaalalabs/agent-kernel",
+      "url": "https://github.com/yaalalabs/agent-kernel",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-25T08:47:59Z",
+        "archived": false,
+        "stars": 195,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Devansh-365/freellm",
+      "url": "https://github.com/Devansh-365/freellm",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T04:47:26Z",
+        "archived": false,
+        "stars": 78,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 0,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "Karimk899/free-llm-router",
+      "url": "https://github.com/Karimk899/free-llm-router",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-24T21:46:39Z",
+        "archived": false,
+        "stars": 65,
+        "root_files": 13,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "opencue/gitguardex",
+      "url": "https://github.com/opencue/gitguardex",
+      "checked": "2026-11-25T08:48:41.714813+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T08:44:59Z",
+        "archived": false,
+        "stars": 28,
+        "root_files": 37,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 4,
+        "unresolved_entries": 0,
+        "pins_checked": 4,
+        "known_advisory_matches": 0
       },
       "errors": []
     }

@@ -1,9 +1,37 @@
 {
-  "updated": "2026-11-24T23:56:50.685714+00:00",
+  "updated": "2026-11-25T08:48:45.884473+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-24T23:56:50.685714+00:00",
+      "last_attempt": "2026-11-25T08:48:45.884473+00:00",
       "jobs": [
+        {
+          "title": "Revenue Operations Analyst",
+          "company": "Augment",
+          "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
+          "source": "Remote OK",
+          "location": "Not stated",
+          "eligibility": "Location unclear",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-24T08:00:11+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
+        {
+          "title": "Real Estate Executive Assistant 21370",
+          "company": "Wing Assistant",
+          "url": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
+          "source": "Remote OK",
+          "location": "Philippines",
+          "eligibility": "Potential PH match",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-24T00:00:20+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
         {
           "title": "Strategic Technical Advisor",
           "company": "Thrive",
@@ -45,41 +73,13 @@
           "posted": "2026-11-20T16:00:18+00:00",
           "salary": "Not stated",
           "kind": ""
-        },
-        {
-          "title": "Customer Success Engineer",
-          "company": "GitLab",
-          "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
-          "source": "Remote OK",
-          "location": "US Only",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:30:12+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Customer Success LATAM",
-          "company": "GitLab",
-          "url": "https://remoteOK.com/remote-jobs/remote-customer-success-latam-gitlab-1137866",
-          "source": "Remote OK",
-          "location": "US Only",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T00:15:13+00:00",
-          "salary": "Not stated",
-          "kind": ""
         }
       ],
-      "last_success": "2026-11-24T23:56:50.685714+00:00",
+      "last_success": "2026-11-25T08:48:45.884473+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-24T23:56:50.685714+00:00",
+      "last_attempt": "2026-11-25T08:48:45.884473+00:00",
       "jobs": [
         {
           "title": "Remote Office Assistant",
@@ -138,11 +138,25 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-24T23:56:50.685714+00:00",
+      "last_success": "2026-11-25T08:48:45.884473+00:00",
       "error": null
     }
   },
   "jobs": [
+    {
+      "title": "Real Estate Executive Assistant 21370",
+      "company": "Wing Assistant",
+      "url": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
+      "source": "Remote OK",
+      "location": "Philippines",
+      "eligibility": "Potential PH match",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-24T00:00:20+00:00",
+      "salary": "Not stated",
+      "kind": ""
+    },
     {
       "title": "Private Practice Enablement Specialist (PST)",
       "company": "Healthie",
@@ -186,6 +200,20 @@
       "kind": "freelance"
     },
     {
+      "title": "Revenue Operations Analyst",
+      "company": "Augment",
+      "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
+      "source": "Remote OK",
+      "location": "Not stated",
+      "eligibility": "Location unclear",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-24T08:00:11+00:00",
+      "salary": "Not stated",
+      "kind": ""
+    },
+    {
       "title": "Strategic Technical Advisor",
       "company": "Thrive",
       "url": "https://remoteOK.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074",
@@ -210,34 +238,6 @@
         "Virtual assistant"
       ],
       "posted": "2026-11-20T16:00:18+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Customer Success Engineer",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-gitlab-1137867",
-      "source": "Remote OK",
-      "location": "US Only",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:30:12+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Customer Success LATAM",
-      "company": "GitLab",
-      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-latam-gitlab-1137866",
-      "source": "Remote OK",
-      "location": "US Only",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T00:15:13+00:00",
       "salary": "Not stated",
       "kind": ""
     },
