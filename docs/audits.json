@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T08:48:41.714813+00:00",
-  "eligible": 166,
+  "updated": "2026-11-25T19:25:23.186589+00:00",
+  "eligible": 165,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -3716,6 +3716,343 @@
         "unresolved_entries": 0,
         "pins_checked": 4,
         "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T19:25:21Z",
+        "archived": false,
+        "stars": 229147,
+        "root_files": 57,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [
+          "install"
+        ],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 9,
+        "unresolved_entries": 9,
+        "pins_checked": 9,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "lsheasel/LocalCode",
+      "url": "https://github.com/lsheasel/LocalCode",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T19:19:56Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 22,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 14,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T19:20:46Z",
+        "archived": false,
+        "stars": 2243,
+        "root_files": 24,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "setup.ps1",
+          "setup.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "bmtrnavsky/disciplined-vibe-coding",
+      "url": "https://github.com/bmtrnavsky/disciplined-vibe-coding",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-25T19:22:03Z",
+        "archived": false,
+        "stars": 26,
+        "root_files": 24,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "MdHashim1011/omnitrix",
+      "url": "https://github.com/MdHashim1011/omnitrix",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-25T19:24:07Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 17,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 8,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "gaurav0107/superhuman",
+      "url": "https://github.com/gaurav0107/superhuman",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T19:20:47Z",
+        "archived": false,
+        "stars": 6,
+        "root_files": 20,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-25T19:20:14Z",
+        "archived": false,
+        "stars": 80850,
+        "root_files": 71,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Th0rgal/orb",
+      "url": "https://github.com/Th0rgal/orb",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-25T19:21:07Z",
+        "archived": false,
+        "stars": 718,
+        "root_files": 38,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "INSTALL.md"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "fakoli/anvil",
+      "url": "https://github.com/fakoli/anvil",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T15:12:25Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 31,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "cskwork/sdlc-kit",
+      "url": "https://github.com/cskwork/sdlc-kit",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T15:51:05Z",
+        "archived": false,
+        "stars": 6,
+        "root_files": 18,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "ezdemo/loopra",
+      "url": "https://github.com/ezdemo/loopra",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-25T15:26:05Z",
+        "archived": false,
+        "stars": 27,
+        "root_files": 20,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "shadok-ai/shadok-ai",
+      "url": "https://github.com/shadok-ai/shadok-ai",
+      "checked": "2026-11-25T19:25:23.186589+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-24T18:11:58Z",
+        "archived": false,
+        "stars": 15,
+        "root_files": 20,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 16,
+        "pins_checked": 0,
+        "known_advisory_matches": null
       },
       "errors": []
     }
