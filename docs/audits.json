@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T03:38:47.953293+00:00",
-  "eligible": 163,
+  "updated": "2026-11-26T17:03:36.608561+00:00",
+  "eligible": 157,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -4397,6 +4397,325 @@
         "npm_lifecycle_hooks": [],
         "exact_pins_found": 0,
         "unresolved_entries": 6,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "cheaper-inference/OmniRoute",
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:02:10Z",
+        "archived": false,
+        "stars": 90501,
+        "root_files": 97,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 42,
+        "unresolved_entries": 137,
+        "pins_checked": 40,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:02:42Z",
+        "archived": false,
+        "stars": 30529,
+        "root_files": 62,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "gufo-org/gufo",
+      "url": "https://github.com/gufo-org/gufo",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T16:58:46Z",
+        "archived": false,
+        "stars": 1286,
+        "root_files": 42,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Lucki74/draggy",
+      "url": "https://github.com/Lucki74/draggy",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-26T17:03:11Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 22,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "fainir/most-capable-agent-system-prompt",
+      "url": "https://github.com/fainir/most-capable-agent-system-prompt",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:00:27Z",
+        "archived": false,
+        "stars": 890,
+        "root_files": 5,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "mindroom-ai/mindroom",
+      "url": "https://github.com/mindroom-ai/mindroom",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-26T17:00:47Z",
+        "archived": false,
+        "stars": 403,
+        "root_files": 44,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "hookdeck/webhook-skills",
+      "url": "https://github.com/hookdeck/webhook-skills",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:02:00Z",
+        "archived": false,
+        "stars": 104,
+        "root_files": 11,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Larusajs/Handoff-Check",
+      "url": "https://github.com/Larusajs/Handoff-Check",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:02:13Z",
+        "archived": false,
+        "stars": 52,
+        "root_files": 21,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 5,
+        "unresolved_entries": 0,
+        "pins_checked": 5,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "lightdash/lightdash",
+      "url": "https://github.com/lightdash/lightdash",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-26T17:01:23Z",
+        "archived": false,
+        "stars": 6254,
+        "root_files": 63,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 18,
+        "unresolved_entries": 1,
+        "pins_checked": 18,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "JosssphZhou/poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-26T17:01:46Z",
+        "archived": false,
+        "stars": 2138,
+        "root_files": 37,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 6,
+        "unresolved_entries": 0,
+        "pins_checked": 6,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "imsai-sh/awesome-deepseek-harness-plugins",
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T16:57:12Z",
+        "archived": false,
+        "stars": 412,
+        "root_files": 15,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "nodecode-ai/nodecode",
+      "url": "https://github.com/nodecode-ai/nodecode",
+      "checked": "2026-11-26T17:03:36.608561+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T17:00:54Z",
+        "archived": false,
+        "stars": 289,
+        "root_files": 18,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
         "pins_checked": 0,
         "known_advisory_matches": null
       },

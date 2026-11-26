@@ -1,9 +1,93 @@
 {
-  "updated": "2026-11-26T03:38:51.653731+00:00",
+  "updated": "2026-11-26T17:03:39.308413+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-26T03:38:51.653731+00:00",
+      "last_attempt": "2026-11-26T17:03:39.308413+00:00",
       "jobs": [
+        {
+          "title": "Customer Success Engineer",
+          "company": "Ethena",
+          "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-ethena-1138112",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T08:21:05+00:00",
+          "salary": "113000\u2013140000 (units per listing)",
+          "kind": ""
+        },
+        {
+          "title": "Family Vacation & Theme Park Travel Planner (Remote)",
+          "company": "Destination Knot",
+          "url": "https://remoteOK.com/remote-jobs/remote-family-vacation-theme-park-travel-planner-remote-destination-knot-1138110",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T08:00:28+00:00",
+          "salary": "35000\u201365000 (units per listing)",
+          "kind": ""
+        },
+        {
+          "title": "Remote Travel Advisor | Entry Level",
+          "company": "Destination Knot",
+          "url": "https://remoteOK.com/remote-jobs/remote-remote-travel-advisor-entry-level-destination-knot-1138109",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T08:00:26+00:00",
+          "salary": "35000\u201375000 (units per listing)",
+          "kind": ""
+        },
+        {
+          "title": "Remote Customer Service Representative \u00e2\u0080\u0093 Hotel Bookings",
+          "company": "Destination Knot",
+          "url": "https://remoteOK.com/remote-jobs/remote-remote-customer-service-representative-hotel-bookings-destination-knot-1138108",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T07:40:44+00:00",
+          "salary": "45000\u201375000 (units per listing)",
+          "kind": ""
+        },
+        {
+          "title": "Solution Consultant - Site Solutions",
+          "company": "Veeva Systems",
+          "url": "https://remoteOK.com/remote-jobs/remote-solution-consultant-site-solutions-veeva-systems-1138107",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T07:40:33+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
+        {
+          "title": "Knowledge Engineer",
+          "company": "Jobgether",
+          "url": "https://remoteOK.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-25T07:28:47+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
         {
           "title": "Region Head, Asia",
           "company": "Dropbox",
@@ -73,27 +157,13 @@
           "posted": "2026-11-21T09:20:07+00:00",
           "salary": "Not stated",
           "kind": ""
-        },
-        {
-          "title": "Quality Engineer",
-          "company": "Quartermaster",
-          "url": "https://remoteOK.com/remote-jobs/remote-quality-engineer-quartermaster-1137914",
-          "source": "Remote OK",
-          "location": "Arlington",
-          "eligibility": "Check region",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-20T16:00:18+00:00",
-          "salary": "Not stated",
-          "kind": ""
         }
       ],
-      "last_success": "2026-11-26T03:38:51.653731+00:00",
+      "last_success": "2026-11-26T17:03:39.308413+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-26T03:38:51.653731+00:00",
+      "last_attempt": "2026-11-26T17:03:39.308413+00:00",
       "jobs": [
         {
           "title": "WordPress Theme & Plugin Developer",
@@ -166,7 +236,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-26T03:38:51.653731+00:00",
+      "last_success": "2026-11-26T17:03:39.308413+00:00",
       "error": null
     }
   },
@@ -270,6 +340,90 @@
       "kind": ""
     },
     {
+      "title": "Customer Success Engineer",
+      "company": "Ethena",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-engineer-ethena-1138112",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T08:21:05+00:00",
+      "salary": "113000\u2013140000 (units per listing)",
+      "kind": ""
+    },
+    {
+      "title": "Family Vacation & Theme Park Travel Planner (Remote)",
+      "company": "Destination Knot",
+      "url": "https://remoteOK.com/remote-jobs/remote-family-vacation-theme-park-travel-planner-remote-destination-knot-1138110",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T08:00:28+00:00",
+      "salary": "35000\u201365000 (units per listing)",
+      "kind": ""
+    },
+    {
+      "title": "Remote Travel Advisor | Entry Level",
+      "company": "Destination Knot",
+      "url": "https://remoteOK.com/remote-jobs/remote-remote-travel-advisor-entry-level-destination-knot-1138109",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T08:00:26+00:00",
+      "salary": "35000\u201375000 (units per listing)",
+      "kind": ""
+    },
+    {
+      "title": "Remote Customer Service Representative \u00e2\u0080\u0093 Hotel Bookings",
+      "company": "Destination Knot",
+      "url": "https://remoteOK.com/remote-jobs/remote-remote-customer-service-representative-hotel-bookings-destination-knot-1138108",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T07:40:44+00:00",
+      "salary": "45000\u201375000 (units per listing)",
+      "kind": ""
+    },
+    {
+      "title": "Solution Consultant - Site Solutions",
+      "company": "Veeva Systems",
+      "url": "https://remoteOK.com/remote-jobs/remote-solution-consultant-site-solutions-veeva-systems-1138107",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T07:40:33+00:00",
+      "salary": "Not stated",
+      "kind": ""
+    },
+    {
+      "title": "Knowledge Engineer",
+      "company": "Jobgether",
+      "url": "https://remoteOK.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-25T07:28:47+00:00",
+      "salary": "Not stated",
+      "kind": ""
+    },
+    {
       "title": "WordPress Theme & Plugin Developer",
       "company": "Steward Web Development",
       "url": "https://remotive.com/remote-jobs/software-development/wordpress-theme-plugin-developer-2091179",
@@ -282,20 +436,6 @@
       "posted": "2026-11-24T10:31:32",
       "salary": "$57K - $67K",
       "kind": "contract"
-    },
-    {
-      "title": "Quality Engineer",
-      "company": "Quartermaster",
-      "url": "https://remoteOK.com/remote-jobs/remote-quality-engineer-quartermaster-1137914",
-      "source": "Remote OK",
-      "location": "Arlington",
-      "eligibility": "Check region",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-20T16:00:18+00:00",
-      "salary": "Not stated",
-      "kind": ""
     },
     {
       "title": "Customer Service Representative",
