@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-25T19:25:27.777536+00:00",
+  "updated": "2026-11-26T03:38:51.653731+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-25T19:25:27.777536+00:00",
+      "last_attempt": "2026-11-26T03:38:51.653731+00:00",
       "jobs": [
         {
           "title": "Region Head, Asia",
@@ -89,11 +89,11 @@
           "kind": ""
         }
       ],
-      "last_success": "2026-11-25T19:25:27.777536+00:00",
+      "last_success": "2026-11-26T03:38:51.653731+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-25T19:25:27.777536+00:00",
+      "last_attempt": "2026-11-26T03:38:51.653731+00:00",
       "jobs": [
         {
           "title": "WordPress Theme & Plugin Developer",
@@ -166,7 +166,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-25T19:25:27.777536+00:00",
+      "last_success": "2026-11-26T03:38:51.653731+00:00",
       "error": null
     }
   },

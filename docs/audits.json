@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T19:25:23.186589+00:00",
-  "eligible": 165,
+  "updated": "2026-11-26T03:38:47.953293+00:00",
+  "eligible": 163,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -4051,6 +4051,352 @@
         ],
         "exact_pins_found": 0,
         "unresolved_entries": 16,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-26T03:27:32Z",
+        "archived": false,
+        "stars": 34495,
+        "root_files": 25,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 3,
+        "unresolved_entries": 6,
+        "pins_checked": 3,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "jazzenchen/agent-hud-open",
+      "url": "https://github.com/jazzenchen/agent-hud-open",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Limited checks completed",
+      "notes": [],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-26T03:33:30Z",
+        "archived": false,
+        "stars": 841,
+        "root_files": 21,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 2,
+        "unresolved_entries": 0,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-26T03:36:05Z",
+        "archived": false,
+        "stars": 119802,
+        "root_files": 41,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 4,
+        "unresolved_entries": 56,
+        "pins_checked": 4,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T03:37:59Z",
+        "archived": false,
+        "stars": 21393,
+        "root_files": 29,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "originaleric/dig-ui-skill",
+      "url": "https://github.com/originaleric/dig-ui-skill",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-26T03:35:01Z",
+        "archived": false,
+        "stars": 230,
+        "root_files": 29,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [
+          "INSTALL.md",
+          "INSTALL.zh-CN.md"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 6,
+        "unresolved_entries": 2,
+        "pins_checked": 6,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "KCNyu/clawock",
+      "url": "https://github.com/KCNyu/clawock",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T03:37:56Z",
+        "archived": false,
+        "stars": 26,
+        "root_files": 35,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [
+          "BOOTSTRAP.md"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "GigleAI/cavil-loop",
+      "url": "https://github.com/GigleAI/cavil-loop",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T03:29:13Z",
+        "archived": false,
+        "stars": 19,
+        "root_files": 23,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "setup.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "KunjShah95/SENTINEL-CLI",
+      "url": "https://github.com/KunjShah95/SENTINEL-CLI",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T03:31:13Z",
+        "archived": false,
+        "stars": 9,
+        "root_files": 22,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 14,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Dotnaught/pi-omlx-sandbox",
+      "url": "https://github.com/Dotnaught/pi-omlx-sandbox",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-23T18:30:37Z",
+        "archived": false,
+        "stars": 18,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "agustinsacco/phosphor",
+      "url": "https://github.com/agustinsacco/phosphor",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T02:31:00Z",
+        "archived": false,
+        "stars": 17,
+        "root_files": 27,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 10,
+        "unresolved_entries": 51,
+        "pins_checked": 10,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "NelsonLongxiang/dsh-open-a2a-net",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T03:11:11Z",
+        "archived": false,
+        "stars": 10,
+        "root_files": 28,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 7,
+        "unresolved_entries": 28,
+        "pins_checked": 7,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "sf8193/hydra",
+      "url": "https://github.com/sf8193/hydra",
+      "checked": "2026-11-26T03:38:47.953293+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-25T18:49:16Z",
+        "archived": false,
+        "stars": 11,
+        "root_files": 57,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 6,
         "pins_checked": 0,
         "known_advisory_matches": null
       },
