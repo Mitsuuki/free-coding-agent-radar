@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T17:03:36.608561+00:00",
-  "eligible": 157,
+  "updated": "2026-11-27T01:47:14.936402+00:00",
+  "eligible": 169,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -4712,6 +4712,328 @@
         "stars": 289,
         "root_files": 18,
         "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "amitshekhariitbhu/ai-engineering-course",
+      "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T01:41:56Z",
+        "archived": false,
+        "stars": 790,
+        "root_files": 4,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "msmarkgu/RelayFreeLLM",
+      "url": "https://github.com/msmarkgu/RelayFreeLLM",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-26T21:38:01Z",
+        "archived": false,
+        "stars": 177,
+        "root_files": 13,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "requirements.txt"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 12,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "ScriptedAlchemy/tracedecay",
+      "url": "https://github.com/ScriptedAlchemy/tracedecay",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T01:43:18Z",
+        "archived": false,
+        "stars": 88,
+        "root_files": 54,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 1,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "eaonlabs/eaon-desktop",
+      "url": "https://github.com/eaonlabs/eaon-desktop",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T01:44:09Z",
+        "archived": false,
+        "stars": 60,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 9,
+        "unresolved_entries": 28,
+        "pins_checked": 9,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "yy36295238/caravel-agent",
+      "url": "https://github.com/yy36295238/caravel-agent",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T01:45:57Z",
+        "archived": false,
+        "stars": 37,
+        "root_files": 5,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "WispAgents/wisp",
+      "url": "https://github.com/WispAgents/wisp",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T01:45:49Z",
+        "archived": false,
+        "stars": 17,
+        "root_files": 56,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 3,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "liuxjerry/awesome-frontier-models-as-robot-policies",
+      "url": "https://github.com/liuxjerry/awesome-frontier-models-as-robot-policies",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "CC0-1.0",
+        "last_push": "2026-11-27T01:40:22Z",
+        "archived": false,
+        "stars": 7,
+        "root_files": 9,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "AnotiaWang/awesome-decision-models",
+      "url": "https://github.com/AnotiaWang/awesome-decision-models",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "CC0-1.0",
+        "last_push": "2026-11-27T01:42:29Z",
+        "archived": false,
+        "stars": 730,
+        "root_files": 8,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "caidaoli/ccLoad",
+      "url": "https://github.com/caidaoli/ccLoad",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T01:42:07Z",
+        "archived": false,
+        "stars": 450,
+        "root_files": 34,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "RYOITABASHI/Shelly",
+      "url": "https://github.com/RYOITABASHI/Shelly",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "GPL-3.0",
+        "last_push": "2026-11-27T01:38:36Z",
+        "archived": false,
+        "stars": 76,
+        "root_files": 45,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 13,
+        "unresolved_entries": 71,
+        "pins_checked": 13,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "cdsap/daemonitor",
+      "url": "https://github.com/cdsap/daemonitor",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T01:44:12Z",
+        "archived": false,
+        "stars": 20,
+        "root_files": 20,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "zb614433612/CodeCraft",
+      "url": "https://github.com/zb614433612/CodeCraft",
+      "checked": "2026-11-27T01:47:14.936402+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T01:44:04Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 21,
+        "security_policy_root": false,
         "dependency_manifests": [],
         "install_script_names": [],
         "exact_pins_found": 0,
