@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T01:47:14.936402+00:00",
-  "eligible": 169,
+  "updated": "2026-11-27T12:42:58.001817+00:00",
+  "eligible": 182,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -5038,6 +5038,349 @@
         "install_script_names": [],
         "exact_pins_found": 0,
         "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:36:08Z",
+        "archived": false,
+        "stars": 11737,
+        "root_files": 39,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "hlibsuslov/telegram-bot-ui",
+      "url": "https://github.com/hlibsuslov/telegram-bot-ui",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:41:51Z",
+        "archived": false,
+        "stars": 21,
+        "root_files": 25,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "nexu-io/opengame",
+      "url": "https://github.com/nexu-io/opengame",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T12:35:55Z",
+        "archived": false,
+        "stars": 1801,
+        "root_files": 66,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [
+          "install.md",
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 56,
+        "unresolved_entries": 0,
+        "pins_checked": 40,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "FROWNINGdev/orm-lens",
+      "url": "https://github.com/FROWNINGdev/orm-lens",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:42:52Z",
+        "archived": false,
+        "stars": 114,
+        "root_files": 27,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json",
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 13,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "davidondrej/cloudroom",
+      "url": "https://github.com/davidondrej/cloudroom",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T12:40:42Z",
+        "archived": false,
+        "stars": 1937,
+        "root_files": 9,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "rossoctl/context-guru",
+      "url": "https://github.com/rossoctl/context-guru",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T12:36:45Z",
+        "archived": false,
+        "stars": 77,
+        "root_files": 72,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "go.mod",
+          "go.sum"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "gal-a/qikly",
+      "url": "https://github.com/gal-a/qikly",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T12:36:12Z",
+        "archived": false,
+        "stars": 25,
+        "root_files": 24,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "requirements.txt"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 4,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "jjuraszek/pi-gauntlet",
+      "url": "https://github.com/jjuraszek/pi-gauntlet",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-27T12:36:05Z",
+        "archived": false,
+        "stars": 21,
+        "root_files": 21,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall"
+        ],
+        "exact_pins_found": 3,
+        "unresolved_entries": 2,
+        "pins_checked": 3,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "ngocsangyem/MeowKit",
+      "url": "https://github.com/ngocsangyem/MeowKit",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:38:56Z",
+        "archived": false,
+        "stars": 17,
+        "root_files": 38,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [
+          "install.ps1",
+          "install.sh"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 13,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "jakubcurik/nano-banana",
+      "url": "https://github.com/jakubcurik/nano-banana",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:36:20Z",
+        "archived": false,
+        "stars": 10,
+        "root_files": 9,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Deltologic/datadoe-ai-skills",
+      "url": "https://github.com/Deltologic/datadoe-ai-skills",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T12:41:45Z",
+        "archived": false,
+        "stars": 8,
+        "root_files": 12,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "yarn.lock"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 2,
+        "unresolved_entries": 5,
+        "pins_checked": 2,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "geniro-io/geniro-app",
+      "url": "https://github.com/geniro-io/geniro-app",
+      "checked": "2026-11-27T12:42:58.001817+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T12:41:52Z",
+        "archived": false,
+        "stars": 7,
+        "root_files": 43,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 27,
         "pins_checked": 0,
         "known_advisory_matches": null
       },

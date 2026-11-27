@@ -1,9 +1,51 @@
 {
-  "updated": "2026-11-27T01:47:17.280126+00:00",
+  "updated": "2026-11-27T12:43:01.431362+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-27T01:47:17.280126+00:00",
+      "last_attempt": "2026-11-27T12:43:01.431362+00:00",
       "jobs": [
+        {
+          "title": "Customer Service Representative",
+          "company": "Vultr",
+          "url": "https://remoteOK.com/remote-jobs/remote-customer-service-representative-vultr-1138186",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-26T12:00:16+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
+        {
+          "title": "Content Engineer, Developer Documentation",
+          "company": "LiveKit",
+          "url": "https://remoteOK.com/remote-jobs/remote-content-engineer-developer-documentation-livekit-1138185",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-26T11:40:12+00:00",
+          "salary": "170000\u2013230000 (units per listing)",
+          "kind": ""
+        },
+        {
+          "title": "Consultant - People Science",
+          "company": "Veeva Systems",
+          "url": "https://remoteOK.com/remote-jobs/remote-consultant-people-science-veeva-systems-1138158",
+          "source": "Remote OK",
+          "location": "US Only",
+          "eligibility": "Check region",
+          "categories": [
+            "Virtual assistant"
+          ],
+          "posted": "2026-11-26T02:40:09+00:00",
+          "salary": "Not stated",
+          "kind": ""
+        },
         {
           "title": "Customer Success Engineer",
           "company": "Ethena",
@@ -87,41 +129,13 @@
           "posted": "2026-11-24T00:00:20+00:00",
           "salary": "Not stated",
           "kind": ""
-        },
-        {
-          "title": "Strategic Technical Advisor",
-          "company": "Thrive",
-          "url": "https://remoteOK.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074",
-          "source": "Remote OK",
-          "location": "Not stated",
-          "eligibility": "Location unclear",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-23T16:00:27+00:00",
-          "salary": "128091\u2013128091 (units per listing)",
-          "kind": ""
-        },
-        {
-          "title": "Private Practice Enablement Specialist (PST)",
-          "company": "Healthie",
-          "url": "https://remoteOK.com/remote-jobs/remote-private-practice-enablement-specialist-pst-healthie-1137952",
-          "source": "Remote OK",
-          "location": "Worldwide",
-          "eligibility": "Potential PH match",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-21T09:20:07+00:00",
-          "salary": "Not stated",
-          "kind": ""
         }
       ],
-      "last_success": "2026-11-27T01:47:17.280126+00:00",
+      "last_success": "2026-11-27T12:43:01.431362+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-27T01:47:17.280126+00:00",
+      "last_attempt": "2026-11-27T12:43:01.431362+00:00",
       "jobs": [
         {
           "title": "WordPress Theme & Plugin Developer",
@@ -194,7 +208,7 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-27T01:47:17.280126+00:00",
+      "last_success": "2026-11-27T12:43:01.431362+00:00",
       "error": null
     }
   },
@@ -224,20 +238,6 @@
         "Virtual assistant"
       ],
       "posted": "2026-11-24T00:00:20+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Private Practice Enablement Specialist (PST)",
-      "company": "Healthie",
-      "url": "https://remoteOK.com/remote-jobs/remote-private-practice-enablement-specialist-pst-healthie-1137952",
-      "source": "Remote OK",
-      "location": "Worldwide",
-      "eligibility": "Potential PH match",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-21T09:20:07+00:00",
       "salary": "Not stated",
       "kind": ""
     },
@@ -284,17 +284,45 @@
       "kind": ""
     },
     {
-      "title": "Strategic Technical Advisor",
-      "company": "Thrive",
-      "url": "https://remoteOK.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074",
+      "title": "Customer Service Representative",
+      "company": "Vultr",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-service-representative-vultr-1138186",
       "source": "Remote OK",
-      "location": "Not stated",
-      "eligibility": "Location unclear",
+      "location": "US Only",
+      "eligibility": "Check region",
       "categories": [
         "Virtual assistant"
       ],
-      "posted": "2026-11-23T16:00:27+00:00",
-      "salary": "128091\u2013128091 (units per listing)",
+      "posted": "2026-11-26T12:00:16+00:00",
+      "salary": "Not stated",
+      "kind": ""
+    },
+    {
+      "title": "Content Engineer, Developer Documentation",
+      "company": "LiveKit",
+      "url": "https://remoteOK.com/remote-jobs/remote-content-engineer-developer-documentation-livekit-1138185",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-26T11:40:12+00:00",
+      "salary": "170000\u2013230000 (units per listing)",
+      "kind": ""
+    },
+    {
+      "title": "Consultant - People Science",
+      "company": "Veeva Systems",
+      "url": "https://remoteOK.com/remote-jobs/remote-consultant-people-science-veeva-systems-1138158",
+      "source": "Remote OK",
+      "location": "US Only",
+      "eligibility": "Check region",
+      "categories": [
+        "Virtual assistant"
+      ],
+      "posted": "2026-11-26T02:40:09+00:00",
+      "salary": "Not stated",
       "kind": ""
     },
     {
