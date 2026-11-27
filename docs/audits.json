@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-27T12:42:58.001817+00:00",
-  "eligible": 182,
+  "updated": "2026-11-27T23:32:07.655702+00:00",
+  "eligible": 183,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
       "url": "https://github.com/CodebuffAI/freebuff",
-      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
       "status": "Review required",
       "notes": [
         "Published advisories match one or more checked dependency versions; review upgrades before use.",
@@ -13,10 +13,10 @@
       ],
       "checks": {
         "license": "Apache-2.0",
-        "last_push": "2026-11-22T06:58:13Z",
+        "last_push": "2026-11-27T23:23:36Z",
         "archived": false,
-        "stars": 14271,
-        "root_files": 29,
+        "stars": 14347,
+        "root_files": 30,
         "security_policy_root": true,
         "dependency_manifests": [
           "package.json"
@@ -33,7 +33,7 @@
     {
       "repo": "happier-dev/happier",
       "url": "https://github.com/happier-dev/happier",
-      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
       "status": "Review required",
       "notes": [
         "npm install lifecycle hooks are declared; inspect before installation.",
@@ -42,10 +42,10 @@
       ],
       "checks": {
         "license": "MIT",
-        "last_push": "2026-11-22T11:12:47Z",
+        "last_push": "2026-11-27T23:30:12Z",
         "archived": false,
-        "stars": 2259,
-        "root_files": 37,
+        "stars": 2308,
+        "root_files": 39,
         "security_policy_root": false,
         "dependency_manifests": [
           "package.json",
@@ -65,7 +65,7 @@
     {
       "repo": "susomejias/rembric",
       "url": "https://github.com/susomejias/rembric",
-      "checked": "2026-11-22T11:25:22.229707+00:00",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
       "status": "Review required",
       "notes": [
         "Review installer scripts before running them.",
@@ -75,7 +75,7 @@
       ],
       "checks": {
         "license": "MIT",
-        "last_push": "2026-11-22T11:20:53Z",
+        "last_push": "2026-11-27T02:26:34Z",
         "archived": false,
         "stars": 15,
         "root_files": 49,
@@ -5381,6 +5381,256 @@
         ],
         "exact_pins_found": 0,
         "unresolved_entries": 27,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "ThreeMoonsLab/agents-shipgate",
+      "url": "https://github.com/ThreeMoonsLab/agents-shipgate",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T23:28:07Z",
+        "archived": false,
+        "stars": 87,
+        "root_files": 49,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "avibe-bot/avibe",
+      "url": "https://github.com/avibe-bot/avibe",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T23:27:07Z",
+        "archived": false,
+        "stars": 654,
+        "root_files": 50,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "requirements.txt",
+          "uv.lock"
+        ],
+        "install_script_names": [
+          "install.ps1",
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 10,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "davidmigloz/ai_clients_dart",
+      "url": "https://github.com/davidmigloz/ai_clients_dart",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T23:31:37Z",
+        "archived": false,
+        "stars": 27,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "app-vitals/shipwright",
+      "url": "https://github.com/app-vitals/shipwright",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T23:26:20Z",
+        "archived": false,
+        "stars": 16,
+        "root_files": 65,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 3,
+        "unresolved_entries": 8,
+        "pins_checked": 3,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "marin-community/loom",
+      "url": "https://github.com/marin-community/loom",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-27T23:22:42Z",
+        "archived": false,
+        "stars": 13,
+        "root_files": 17,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "myk-org/pi-config",
+      "url": "https://github.com/myk-org/pi-config",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-27T23:31:38Z",
+        "archived": false,
+        "stars": 9,
+        "root_files": 42,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 12,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Illuminfti/kizuki",
+      "url": "https://github.com/Illuminfti/kizuki",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T23:29:07Z",
+        "archived": false,
+        "stars": 6,
+        "root_files": 27,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 1,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "purlis/purlis",
+      "url": "https://github.com/purlis/purlis",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-27T23:30:10Z",
+        "archived": false,
+        "stars": 12,
+        "root_files": 36,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [
+          "install.sh"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "indrazm/personal-skills",
+      "url": "https://github.com/indrazm/personal-skills",
+      "checked": "2026-11-27T23:32:07.655702+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-27T05:34:09Z",
+        "archived": false,
+        "stars": 15,
+        "root_files": 5,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
         "pins_checked": 0,
         "known_advisory_matches": null
       },

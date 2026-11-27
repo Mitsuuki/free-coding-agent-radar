@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-27T12:43:01.431362+00:00",
+  "updated": "2026-11-27T23:32:11.897460+00:00",
   "feeds": {
     "Remote OK": {
-      "last_attempt": "2026-11-27T12:43:01.431362+00:00",
+      "last_attempt": "2026-11-27T23:32:11.897460+00:00",
       "jobs": [
         {
           "title": "Customer Service Representative",
@@ -87,55 +87,13 @@
           "posted": "2026-11-25T07:28:47+00:00",
           "salary": "Not stated",
           "kind": ""
-        },
-        {
-          "title": "Region Head, Asia",
-          "company": "Dropbox",
-          "url": "https://remoteOK.com/remote-jobs/remote-region-head-asia-dropbox-1138082",
-          "source": "Remote OK",
-          "location": "Asia",
-          "eligibility": "Potential PH match",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-24T09:20:04+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Revenue Operations Analyst",
-          "company": "Augment",
-          "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
-          "source": "Remote OK",
-          "location": "Not stated",
-          "eligibility": "Location unclear",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-24T08:00:11+00:00",
-          "salary": "Not stated",
-          "kind": ""
-        },
-        {
-          "title": "Real Estate Executive Assistant 21370",
-          "company": "Wing Assistant",
-          "url": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
-          "source": "Remote OK",
-          "location": "Philippines",
-          "eligibility": "Potential PH match",
-          "categories": [
-            "Virtual assistant"
-          ],
-          "posted": "2026-11-24T00:00:20+00:00",
-          "salary": "Not stated",
-          "kind": ""
         }
       ],
-      "last_success": "2026-11-27T12:43:01.431362+00:00",
+      "last_success": "2026-11-27T23:32:11.897460+00:00",
       "error": null
     },
     "Remotive": {
-      "last_attempt": "2026-11-27T12:43:01.431362+00:00",
+      "last_attempt": "2026-11-27T23:32:11.897460+00:00",
       "jobs": [
         {
           "title": "WordPress Theme & Plugin Developer",
@@ -208,39 +166,11 @@
           "kind": "freelance"
         }
       ],
-      "last_success": "2026-11-27T12:43:01.431362+00:00",
+      "last_success": "2026-11-27T23:32:11.897460+00:00",
       "error": null
     }
   },
   "jobs": [
-    {
-      "title": "Region Head, Asia",
-      "company": "Dropbox",
-      "url": "https://remoteOK.com/remote-jobs/remote-region-head-asia-dropbox-1138082",
-      "source": "Remote OK",
-      "location": "Asia",
-      "eligibility": "Potential PH match",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-24T09:20:04+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
-    {
-      "title": "Real Estate Executive Assistant 21370",
-      "company": "Wing Assistant",
-      "url": "https://remoteOK.com/remote-jobs/remote-real-estate-executive-assistant-21370-wing-assistant-1138078",
-      "source": "Remote OK",
-      "location": "Philippines",
-      "eligibility": "Potential PH match",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-24T00:00:20+00:00",
-      "salary": "Not stated",
-      "kind": ""
-    },
     {
       "title": "Remote Office Assistant",
       "company": "Coalition Technologies ",
@@ -268,20 +198,6 @@
       "posted": "2026-11-02T20:01:00",
       "salary": "$20k -$35k",
       "kind": "freelance"
-    },
-    {
-      "title": "Revenue Operations Analyst",
-      "company": "Augment",
-      "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
-      "source": "Remote OK",
-      "location": "Not stated",
-      "eligibility": "Location unclear",
-      "categories": [
-        "Virtual assistant"
-      ],
-      "posted": "2026-11-24T08:00:11+00:00",
-      "salary": "Not stated",
-      "kind": ""
     },
     {
       "title": "Customer Service Representative",
