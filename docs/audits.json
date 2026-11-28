@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T23:32:07.655702+00:00",
+  "updated": "2026-11-28T08:00:01.807629+00:00",
   "eligible": 183,
   "audits": [
     {
@@ -5629,6 +5629,354 @@
         "security_policy_root": false,
         "dependency_manifests": [],
         "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "useapi/muse-api",
+      "url": "https://github.com/useapi/muse-api",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:56:28Z",
+        "archived": false,
+        "stars": 66,
+        "root_files": 13,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "anton-abyzov/specwithcode",
+      "url": "https://github.com/anton-abyzov/specwithcode",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:59:38Z",
+        "archived": false,
+        "stars": 26,
+        "root_files": 43,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 3,
+        "unresolved_entries": 4,
+        "pins_checked": 3,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "BytePioneer-AI/codex-host",
+      "url": "https://github.com/BytePioneer-AI/codex-host",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "LGPL-3.0",
+        "last_push": "2026-11-28T07:59:23Z",
+        "archived": false,
+        "stars": 3556,
+        "root_files": 34,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "postinstall",
+          "prepare"
+        ],
+        "exact_pins_found": 23,
+        "unresolved_entries": 2,
+        "pins_checked": 23,
+        "known_advisory_matches": 4
+      },
+      "errors": []
+    },
+    {
+      "repo": "repoprompt/repoprompt-ce",
+      "url": "https://github.com/repoprompt/repoprompt-ce",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-28T07:57:27Z",
+        "archived": false,
+        "stars": 998,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Indras-Mirror/Xolotl",
+      "url": "https://github.com/Indras-Mirror/Xolotl",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:58:50Z",
+        "archived": false,
+        "stars": 577,
+        "root_files": 57,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "requirements.txt"
+        ],
+        "install_script_names": [
+          "SETUP.bat",
+          "setup.py",
+          "setup.sh"
+        ],
+        "exact_pins_found": 15,
+        "unresolved_entries": 7,
+        "pins_checked": 15,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "Nalu-Lab/shifu",
+      "url": "https://github.com/Nalu-Lab/shifu",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:58:27Z",
+        "archived": false,
+        "stars": 16,
+        "root_files": 22,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "duriantaco/skylos",
+      "url": "https://github.com/duriantaco/skylos",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-28T07:51:54Z",
+        "archived": false,
+        "stars": 957,
+        "root_files": 53,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "vilmire/adhdev",
+      "url": "https://github.com/vilmire/adhdev",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-28T07:50:43Z",
+        "archived": false,
+        "stars": 125,
+        "root_files": 21,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 5,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "AFK-surf/monoid",
+      "url": "https://github.com/AFK-surf/monoid",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:51:52Z",
+        "archived": false,
+        "stars": 67,
+        "root_files": 34,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 5,
+        "unresolved_entries": 16,
+        "pins_checked": 5,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "Asdivyansh/Awesome-ChatGPT-Plugins",
+      "url": "https://github.com/Asdivyansh/Awesome-ChatGPT-Plugins",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "CC0-1.0",
+        "last_push": "2026-11-28T07:50:48Z",
+        "archived": false,
+        "stars": 26,
+        "root_files": 10,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "TianLin0509/ai-hub-huawei",
+      "url": "https://github.com/TianLin0509/ai-hub-huawei",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "Review installer scripts before running them.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T07:54:30Z",
+        "archived": false,
+        "stars": 22,
+        "root_files": 25,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [
+          "INSTALL.md",
+          "install.bat",
+          "install.ps1"
+        ],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 3,
+        "unresolved_entries": 17,
+        "pins_checked": 3,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "manishiitg/agentworks",
+      "url": "https://github.com/manishiitg/agentworks",
+      "checked": "2026-11-28T08:00:01.807629+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Review installer scripts before running them.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-28T07:58:37Z",
+        "archived": false,
+        "stars": 16,
+        "root_files": 35,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [
+          "install.sh"
+        ],
         "exact_pins_found": 0,
         "unresolved_entries": 0,
         "pins_checked": 0,
