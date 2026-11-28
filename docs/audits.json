@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T08:00:01.807629+00:00",
-  "eligible": 183,
+  "updated": "2026-11-28T17:38:33.725998+00:00",
+  "eligible": 196,
   "audits": [
     {
       "repo": "CodebuffAI/freebuff",
@@ -5979,6 +5979,329 @@
         ],
         "exact_pins_found": 0,
         "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "memtomem/memtomem",
+      "url": "https://github.com/memtomem/memtomem",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-28T17:32:48Z",
+        "archived": false,
+        "stars": 26,
+        "root_files": 23,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "openwizdev/OpenWiz",
+      "url": "https://github.com/openwizdev/OpenWiz",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-28T17:38:13Z",
+        "archived": false,
+        "stars": 13,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "guihuashaoxiang/FreeLLM-API-KeyHub",
+      "url": "https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-28T16:00:10Z",
+        "archived": false,
+        "stars": 292,
+        "root_files": 7,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Lelu-ai/lelu",
+      "url": "https://github.com/Lelu-ai/lelu",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T17:35:06Z",
+        "archived": false,
+        "stars": 85,
+        "root_files": 28,
+        "security_policy_root": true,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Heyvhuang/copybook-skills",
+      "url": "https://github.com/Heyvhuang/copybook-skills",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T17:29:34Z",
+        "archived": false,
+        "stars": 39,
+        "root_files": 12,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "Extalia-VO/extalia-virtual-agent",
+      "url": "https://github.com/Extalia-VO/extalia-virtual-agent",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T17:34:02Z",
+        "archived": false,
+        "stars": 18,
+        "root_files": 29,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "Cargo.lock",
+          "Cargo.toml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 1,
+        "unresolved_entries": 8,
+        "pins_checked": 1,
+        "known_advisory_matches": 0
+      },
+      "errors": []
+    },
+    {
+      "repo": "ai-boost/awesome-image-video-prompts",
+      "url": "https://github.com/ai-boost/awesome-image-video-prompts",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "GPL-3.0",
+        "last_push": "2026-11-28T17:34:10Z",
+        "archived": false,
+        "stars": 3545,
+        "root_files": 14,
+        "security_policy_root": false,
+        "dependency_manifests": [],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "RealDealCPA-VR/Iron-Jarvis",
+      "url": "https://github.com/RealDealCPA-VR/Iron-Jarvis",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "NOASSERTION",
+        "last_push": "2026-11-28T17:32:30Z",
+        "archived": false,
+        "stars": 70,
+        "root_files": 34,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "drtikov/microbrainsforagents",
+      "url": "https://github.com/drtikov/microbrainsforagents",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "Apache-2.0",
+        "last_push": "2026-11-28T17:37:41Z",
+        "archived": false,
+        "stars": 48,
+        "root_files": 35,
+        "security_policy_root": true,
+        "dependency_manifests": [
+          "pyproject.toml"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "CarlosVallejoRuiz/slurp",
+      "url": "https://github.com/CarlosVallejoRuiz/slurp",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T17:34:47Z",
+        "archived": false,
+        "stars": 47,
+        "root_files": 18,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "install_script_names": [],
+        "exact_pins_found": 0,
+        "unresolved_entries": 0,
+        "pins_checked": 0,
+        "known_advisory_matches": null
+      },
+      "errors": []
+    },
+    {
+      "repo": "QAInsights/awesome-ai-tools",
+      "url": "https://github.com/QAInsights/awesome-ai-tools",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "License needs manual review.",
+        "Published advisories match one or more checked dependency versions; review upgrades before use.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "Not detected",
+        "last_push": "2026-11-28T17:34:38Z",
+        "archived": false,
+        "stars": 37,
+        "root_files": 25,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [],
+        "exact_pins_found": 6,
+        "unresolved_entries": 16,
+        "pins_checked": 6,
+        "known_advisory_matches": 1
+      },
+      "errors": []
+    },
+    {
+      "repo": "keshrath/agent-tasks",
+      "url": "https://github.com/keshrath/agent-tasks",
+      "checked": "2026-11-28T17:38:33.725998+00:00",
+      "status": "Review required",
+      "notes": [
+        "npm install lifecycle hooks are declared; inspect before installation.",
+        "No exact dependency versions checked; lockfiles and transitive dependencies are not covered.",
+        "Some dependency entries were outside the supported or bounded review."
+      ],
+      "checks": {
+        "license": "MIT",
+        "last_push": "2026-11-28T17:38:15Z",
+        "archived": false,
+        "stars": 24,
+        "root_files": 24,
+        "security_policy_root": false,
+        "dependency_manifests": [
+          "package-lock.json",
+          "package.json"
+        ],
+        "install_script_names": [],
+        "npm_lifecycle_hooks": [
+          "prepare"
+        ],
+        "exact_pins_found": 0,
+        "unresolved_entries": 25,
         "pins_checked": 0,
         "known_advisory_matches": null
       },
